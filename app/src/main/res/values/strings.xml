@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Unit Converter</string>
+    <string name="milliliters">Milliliters</string>
+    <string name="ounces">Ounces</string>
+    <string name="cups">Cups</string>
+    <string name="grams">Grams</string>
+    <string name="test_number">50</string>
+</resources>
