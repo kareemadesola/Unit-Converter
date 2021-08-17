@@ -5,3 +5,5 @@
 <!-- Add buttons here -->
 
 ![GitHub all releases](https://img.shields.io/github/downloads/kareemadesola/Unit-Converter/total?color=%2342f554&logo=Github&style=flat-square)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/y/kareemadesola/Unit-Converter)
+![GitHub](https://img.shields.io/github/license/kareemadesola/Unit-Converter)
