@@ -1,7 +1,6 @@
 # Unit-Converter
 <!-- Add buttons here -->
 ![GitHub all releases](https://img.shields.io/github/downloads/kareemadesola/unit-converter/total?color=%2342f554&logo=Github&style=flat-square)<!--![GitHub release (latest by date)](https://img.shields.io/github/downloads/kareemadesola/unit-converter/v1.0/total)-->
-![GitHub commit activity](https://img.shields.io/github/commit-activity/y/kareemadesola/unit-converter)
 ![GitHub](https://img.shields.io/github/license/kareemadesola/unit-converter)
 ![GitHub issues](https://img.shields.io/github/issues/kareemadesola/unit-converter)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/kareemadesola/unit-converter)
