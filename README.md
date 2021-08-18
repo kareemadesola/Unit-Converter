@@ -17,7 +17,6 @@
 - [Contribute](#contribute)
     - [Sponsor](#sponsor)
 - [License](#license)
-- [Footer](#footer)
 
 ## Installation
 [(Back to top)](#table-of-contents)
