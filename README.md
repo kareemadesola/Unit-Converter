@@ -38,9 +38,11 @@ Whether it is adding new features, raising issues or fixing bugs, your contribut
 
 ### Sponsor
 [(Back to top)](#table-of-contents)
+
 This is free, open-source software. If you'd like to support the development of future projects, or say thanks for this one, you can donate at [Patreon:sparkling_heart:](https://www.patreon.com/kareemadesola?fan_landing=true)  and [Paypal:money_with_wings:](https://www.paypal.me/kareemadesola)
  
  ## **Acknowledgements**
+[(Back to top)](#table-of-contents)
 
 -   [Kennedy Odife](https://github.com/odifek)  for technical assistance and innovative ideas
 - [Android Basics in Kotlin](https://developer.android.com/courses/android-basics-kotlin/course)
