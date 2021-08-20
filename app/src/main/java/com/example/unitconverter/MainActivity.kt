@@ -46,7 +46,11 @@ class MainActivity : AppCompatActivity() {
         binding.ouncesValue.removeTextChangedListener(ounceTextChangedListener)
         val valueInOunce = binding.millilitersValue.text.toString().toFloatOrNull()?.div(
             CUBIC_MILLIMETER_OUNCE)
-        binding.ouncesValue.setText("$valueInOunce", TextView.BufferType.EDITABLE)
+        if (valueInOunce ==null) {
+            binding.ouncesValue.setText("", TextView.BufferType.EDITABLE)
+        }else{
+            binding.ouncesValue.setText("$valueInOunce", TextView.BufferType.EDITABLE)
+        }
         binding.ouncesValue.addTextChangedListener(ounceTextChangedListener)
     }
 
@@ -54,7 +58,11 @@ class MainActivity : AppCompatActivity() {
         binding.millilitersValue.removeTextChangedListener(millimeterTextChangedListener)
         val valueInMillimeter = binding.ouncesValue.text.toString().toFloatOrNull()?.times(
             CUBIC_MILLIMETER_OUNCE)
-        binding.millilitersValue.setText("$valueInMillimeter", TextView.BufferType.EDITABLE)
+        if (valueInMillimeter ==null) {
+            binding.millilitersValue.setText("", TextView.BufferType.EDITABLE)
+        }else{
+            binding.millilitersValue.setText("$valueInMillimeter", TextView.BufferType.EDITABLE)
+        }
         binding.millilitersValue.addTextChangedListener(millimeterTextChangedListener)
 
     }
