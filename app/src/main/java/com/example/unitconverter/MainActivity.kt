@@ -6,7 +6,7 @@ import android.text.Editable
 import android.text.TextWatcher
 import android.widget.TextView
 import com.example.unitconverter.databinding.ActivityMainBinding
-const val  CUBIC_MILLIMETER_OUNCE = 29574
+const val  MILLILITER_OUNCE = 29.574
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         override fun afterTextChanged(s: Editable?) {
-            cubicMillimeterToOunce()
+            milliliterToOunce()
         }
 
     }
@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         override fun afterTextChanged(s: Editable?) {
-            ounceToCubicMillimeter()
+            ounceToMilliliter()
         }
 
     }
@@ -42,10 +42,10 @@ class MainActivity : AppCompatActivity() {
         binding.ouncesValue.addTextChangedListener(ounceTextChangedListener)
     }
 
-    private fun cubicMillimeterToOunce() {
+    private fun milliliterToOunce() {
         binding.ouncesValue.removeTextChangedListener(ounceTextChangedListener)
         val valueInOunce = binding.millilitersValue.text.toString().toFloatOrNull()?.div(
-            CUBIC_MILLIMETER_OUNCE)
+            MILLILITER_OUNCE)
         if (valueInOunce ==null) {
             binding.ouncesValue.setText("", TextView.BufferType.EDITABLE)
         }else{
@@ -54,10 +54,10 @@ class MainActivity : AppCompatActivity() {
         binding.ouncesValue.addTextChangedListener(ounceTextChangedListener)
     }
 
-    private fun ounceToCubicMillimeter() {
+    private fun ounceToMilliliter() {
         binding.millilitersValue.removeTextChangedListener(millimeterTextChangedListener)
         val valueInMillimeter = binding.ouncesValue.text.toString().toFloatOrNull()?.times(
-            CUBIC_MILLIMETER_OUNCE)
+            MILLILITER_OUNCE)
         if (valueInMillimeter ==null) {
             binding.millilitersValue.setText("", TextView.BufferType.EDITABLE)
         }else{
