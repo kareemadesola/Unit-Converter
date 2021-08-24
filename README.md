@@ -6,7 +6,7 @@
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/kareemadesola/unit-converter)
 
 ## Demo Preview
-![Unit-Converter GIF-downsized](https://user-images.githubusercontent.com/43554971/129746573-dc54a97e-f241-41d6-8ded-726c02ca61a9.gif)
+![unit_conversion](https://user-images.githubusercontent.com/43554971/130635494-ff47a480-47c4-480c-847e-51b7a0da0956.gif)
 
 ## Table of contents
 - [Project Title](#unit-converter)
